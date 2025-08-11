@@ -74,8 +74,51 @@ const account2 = {
   currency: 'USD',
   locale: 'en-US',
 };
+const account3 = {
+  owner: 'Steven Thomas Williams',
+  movements: [
+    8905.27, 9563.72, 17490.09, -71.97, 2599.35, 11199.2, 2571.15, 25326.72,
+  ],
+  interestRate: 1.3,
+  pin: 3333,
 
-const accounts = [account1, account2];
+  movementsDates: [
+    '2023-08-24T16:30:57.086356Z',
+    '2022-11-24T16:30:57.086356Z',
+    '2022-06-27T16:30:57.086356Z',
+    '2021-11-22T16:30:57.086356Z',
+    '2020-11-07T16:30:57.086356Z',
+    '2024-10-06T16:30:57.086356Z',
+    '2025-07-31T16:30:57.086356Z',
+    '2023-07-22T16:30:57.086356Z',
+  ],
+  currency: 'GBP',
+  locale: 'en-GB',
+};
+
+const account4 = {
+  owner: 'Sarah Smith',
+  movements: [
+    6662.11, 19482.01, 9497.36, 726.94, 2123.76, 20383.68, 20429.83, 23956.49,
+  ],
+  interestRate: 1.4,
+  pin: 4444,
+
+  movementsDates: [
+    '2021-05-24T16:30:57.086495Z',
+    '2021-11-03T16:30:57.086495Z',
+    '2022-07-13T16:30:57.086495Z',
+    '2020-08-20T16:30:57.086495Z',
+    '2024-03-14T16:30:57.086495Z',
+    '2025-02-21T16:30:57.086495Z',
+    '2023-04-21T16:30:57.086495Z',
+    '2020-10-29T16:30:57.086495Z',
+  ],
+  currency: 'CAD',
+  locale: 'en-CA',
+};
+
+const accounts = [account1, account2, account3, account4];
 
 // Elements
 const labelWelcome = document.querySelector('.welcome');
