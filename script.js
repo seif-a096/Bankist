@@ -411,3 +411,7 @@ console.log(Number.parseInt('30', 2));
 console.log(num.toString(2));
 console.log(Number.isNaN('2'));
 console.log((2.6).toFixed(8));
+console.log(Number.parseInt('230_000'));
+console.log(parseInt('230_000'));
+console.log(20n == 20);
+console.log(90078 * 10 ** 3099);
